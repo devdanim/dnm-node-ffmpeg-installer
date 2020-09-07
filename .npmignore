@@ -3,3 +3,4 @@ platforms
 *.iml
 .jshintrc
 *.tgz
+.vscode
