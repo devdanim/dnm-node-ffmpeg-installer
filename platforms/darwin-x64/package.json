@@ -1,5 +1,5 @@
 {
-  "name": "dnm-node-ffmpeg-bin-darwin-x64",
+  "name": "dnm-ffmpeg-darwin",
   "version": "4.3.1",
   "description": "Mac OS X FFmpeg binary used by dnm-node-ffmpeg-installer",
   "homepage": "https://evermeet.cx/ffmpeg/",

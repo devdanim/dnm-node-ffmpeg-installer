@@ -8,7 +8,7 @@ var verifyFile = require('./lib/verify-file');
 
 var platform = os.platform() + '-' + os.arch();
 
-var packageName = 'dnm-node-ffmpeg-bin-' + platform;
+var packageName = `dnm-ffmpeg-${os.platform() === 'win32' ? 'win' : 'darwin'}`;
 
 if (!require('./package.json').optionalDependencies[packageName]) {
     throw 'Unsupported platform/architecture: ' + platform;

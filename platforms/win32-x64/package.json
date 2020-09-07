@@ -1,5 +1,5 @@
 {
-  "name": "dnm-node-ffmpeg-bin-win32-x64",
+  "name": "dnm-ffmpeg-win",
   "version": "4.3.1",
   "description": "Windows FFmpeg binary used by dnm-node-ffmpeg-installer",
   "homepage": "https://ffmpeg.zeranoe.com/builds/win64/static/",
