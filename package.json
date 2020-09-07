@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "jshint *.js",
     "preversion": "npm run lint",
-    "upload": "npm --userconfig=.npmrc publish --access public"
+    "upload": "npm publish --access public"
   },
   "keywords": [
     "ffmpeg",
