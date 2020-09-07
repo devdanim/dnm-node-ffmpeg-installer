@@ -1,12 +1,12 @@
 {
-  "name": "@ffmpeg-installer/win32-x64",
-  "version": "4.1.0",
-  "description": "Windows FFmpeg binary used by ffmpeg-installer",
+  "name": "dnm-node-ffmpeg-bin-win32-x64",
+  "version": "4.3.1",
+  "description": "Windows FFmpeg binary used by dnm-node-ffmpeg-installer",
   "homepage": "https://ffmpeg.zeranoe.com/builds/win64/static/",
   "scripts": {
     "test": "file ffmpeg.exe | grep -qF \"PE32+\"",
     "prepublishOnly": "npm test",
-    "upload": "npm --userconfig=../../.npmrc publish --access public"
+    "upload": "npm publish --access public"
   },
   "keywords": [
     "ffmpeg",
@@ -20,7 +20,7 @@
   "cpu": [
     "x64"
   ],
-  "author": "Kristoffer Lundén <kristoffer.lunden@gmail.com>",
+  "author": "fadrien",
   "license": "GPLv3",
-  "ffmpeg": "20181217-f22fcd4"
+  "ffmpeg": "20200831-4a11a6f"
 }
