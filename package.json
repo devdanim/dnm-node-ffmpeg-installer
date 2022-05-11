@@ -1,6 +1,6 @@
 {
   "name": "dnm-node-ffmpeg-installer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "lint": "jshint *.js",
@@ -15,7 +15,7 @@
     "sound"
   ],
   "author": "fadrien",
-  "license": "LGPL-2.1",
+  "license": "GPLv3",
   "description": "Platform independent binary installer of FFmpeg for node projects",
   "optionalDependencies": {
     "dnm-ffmpeg-darwin": "latest",
